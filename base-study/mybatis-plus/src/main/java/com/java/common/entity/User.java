@@ -1,7 +1,7 @@
 package com.java.common.entity;
 
 /**
- * 用户类
+ * 用户类(表结构)
  */
 public class User {
 
