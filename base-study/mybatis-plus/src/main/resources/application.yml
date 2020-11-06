@@ -1,0 +1,11 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://192.168.200.25:3306/mybatis_plus?useSSL=false&useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8
+    # mysql 5 驱动不同 com.mysql.jdbc.Driver  （5.7）
+    # mysql 8 驱动不同 com.mysql.cj.jdbc.Driver  （8.0.18）需要增加时区的配置
+    driver-class-name: com.mysql.cj.jdbc.Driver
