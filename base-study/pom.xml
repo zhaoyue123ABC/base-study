@@ -11,6 +11,7 @@
     <modules>
         <module>kafka</module>
         <module>mybatis-plus</module>
+        <module>External-jar</module>
     </modules>
 
     <parent>
