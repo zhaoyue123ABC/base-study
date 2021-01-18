@@ -1,0 +1,20 @@
+server:
+  port: 8190
+
+#spring
+spring:
+  datasource:
+    driver-class-name: org.sqlite.JDBC
+    # 方式一：  引用外部文件
+    #        url: jdbc:sqlite:D:/eclipse/dome.db
+    #方式二： 引用项目中的文件
+    url: jdbc:sqlite::resource:sqlite/dome.db
+    username:
+    password:
+
+# sql打印
+logging:
+  level: debug
+  level.com.xuanyin: debug
+  path: logs/
+#    file: admin.log
